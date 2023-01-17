@@ -2,13 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Roboto Slab', serif;
 }
 
 body {
   min-height: 125vh;
   min-width: 400px;
-  background: linear-gradient(to bottom, rgba(27, 192, 241, 0.966) 0%,rgb(248, 251, 252) 100%);
+  background: linear-gradient(to bottom, rgba(241, 226, 10, 0.966) 0%,rgb(255, 60, 0) 100%);
 }
 
 main {
@@ -84,7 +84,7 @@ main {
 
 .form input:focus, .form textarea:focus {
   background: white;
-  border: 2px solid rgba(43, 180, 77, 0.733);
+  border: 3px solid rgba(241, 226, 10, 0.966);
 }
 
 
@@ -94,8 +94,8 @@ main {
 }
 
 .form input[type="submit"] {
-  background: rgba(43, 180, 77, 0.733);
-  color: #555;
+  background: rgba(1, 1, 65, 0.849);
+  color: white;
   font-weight: 600;
   margin-bottom: 1.2rem;  
   border-radius: 8px;
@@ -103,7 +103,7 @@ main {
 
 .form input[type="reset"] {
   background: white;
-  color: #555;
+  color: rgb(255, 60, 0);
   font-weight: 600;
   border-radius: 8px;
   border-color:rgba(167, 167, 167, 0.507)
@@ -141,7 +141,7 @@ legend h1 {
 }
 
 legend .circle {
-    background: rgba(43, 180, 77, 0.733);
+    background: rgba(1, 1, 65, 0.849);
     border-radius: 50%;
     width: 40px;
     height: 40px;

@@ -172,3 +172,52 @@ input[type='checkbox'] + label, input[type='radio'] + label {
   width: fit-content;
   margin-right: 2rem;
 }
+
+.visually-hidden {
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+.checkboxes{
+  display:flex;
+}
+
+.row-1, .row-2, .row-3 {
+  display:flex;
+  justify-content:space-between ;
+  margin-left: 5px;
+}
+
+.row-1 .col-2 {
+  margin-left: 54px;
+}
+
+.row-1 .col-3 {
+  margin-left: 55px;
+  margin-right: 57px;
+}
+
+.row-2 .col-2{
+  margin-left: 35px;
+
+}
+.row-2 .col-3{
+  margin-left: 55px;
+  margin-right: 35px;
+}
+
+.row-3 .col-3 {
+  margin-right: 17px;
+}
+
+.row-3 .col-2{
+  margin-left: 33px;
+}
+
+

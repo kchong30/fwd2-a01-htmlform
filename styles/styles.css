@@ -82,7 +82,7 @@ main {
 }
 
 
-.form input:focus, .form textarea:focus {
+.form input:focus, .form textarea:focus, .form select:focus {
   background: white;
   border: 3px solid rgba(241, 226, 10, 0.966);
 }
@@ -204,16 +204,16 @@ input[type='checkbox'] + label, input[type='radio'] + label {
 }
 
 .row-2 .col-2{
-  margin-left: 35px;
+  margin-left: 24px;
 
 }
 .row-2 .col-3{
   margin-left: 55px;
-  margin-right: 35px;
+  margin-right: 36px;
 }
 
 .row-3 .col-3 {
-  margin-right: 17px;
+  margin-right: 19px;
 }
 
 .row-3 .col-2{

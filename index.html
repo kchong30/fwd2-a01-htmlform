@@ -23,12 +23,12 @@
                 <div class = circle>1</div>
                 <h1>Account Info</h1>
               </legend>
-              <label for="name">Name:</label>
-              <input type="text" name="name" id="name" required>
-              <label for="email">Email</label>
-              <input type="email" name="email" id="email"required>
-              <label for="password">Password</label>
-              <input type="password" name="password" id="password" required>
+              <label for="name" class="visually-hidden">Name:</label>
+              <input type="text" name="name" id="name" placeholder = "Full Name..." required>
+              <label for="email" class="visually-hidden">Email</label>
+              <input type="email" name="email" id="email" placeholder = "Email Address..."required>
+              <label for="password" class="visually-hidden">Password</label>
+              <input type="password" name="password" id="password" placeholder = "Password (min. 8 chars)..." required>
             </fieldset>
             <fieldset>
               <legend>
@@ -36,14 +36,29 @@
                 <h1>Dev Skills</h1>
               </legend>
               <label class="standalone">Programming Languages</label>
-              <input type="checkbox" name="html" id="html" value="html">
-              <label for="html">HTML</label>
-              <input type="checkbox" name="css" id="css" value="css">
-              <label for="css">CSS</label>
-              <input type="checkbox" name="js" id="js" value="js">
-              <label for="js">JavaScript</label>
-              <input type="checkbox" name="php" id="php" value="php">
-              <label for="php">PHP</label>
+              <div class = "row">
+                  <input type="checkbox" name="html" id="html" value="html">
+                  <label for="html">HTML</label>
+                  <input type="checkbox" name="css" id="css" value="css">
+                  <label for="css">CSS</label>
+                  <input type="checkbox" name="sass" id="sass" value="sass">
+                  <label for="sass">Sass</label>
+              </div>
+              <div class = "row">
+                  <input type="checkbox" name="js" id="js" value="js">
+                  <label for="js">JavaScript</label>
+                  <input type="checkbox" name="php" id="php" value="php">
+                  <label for="php">PHP</label>
+                  <input type="checkbox" name="php" id="php" value="php">
+                  <label for="php">PHP</label>
+              </div>
+              <label class="standalone">Dev Ops</label>
+                <input type="checkbox" name="html" id="html" value="html">
+                <label for="html">HTML</label>
+                <input type="checkbox" name="css" id="css" value="css">
+                <label for="css">CSS</label>
+                <input type="checkbox" name="js" id="js" value="js">
+                <label for="js">JavaScript</label>
             </fieldset>
             <fieldset>
               <legend>

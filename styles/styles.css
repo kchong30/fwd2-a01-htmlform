@@ -186,6 +186,38 @@ input[type='checkbox'] + label, input[type='radio'] + label {
 
 .checkboxes{
   display:flex;
-  flex-flow:row wrap;
 }
+
+.row-1, .row-2, .row-3 {
+  display:flex;
+  justify-content:space-between ;
+  margin-left: 5px;
+}
+
+.row-1 .col-2 {
+  margin-left: 54px;
+}
+
+.row-1 .col-3 {
+  margin-left: 55px;
+  margin-right: 57px;
+}
+
+.row-2 .col-2{
+  margin-left: 35px;
+
+}
+.row-2 .col-3{
+  margin-left: 55px;
+  margin-right: 35px;
+}
+
+.row-3 .col-3 {
+  margin-right: 17px;
+}
+
+.row-3 .col-2{
+  margin-left: 33px;
+}
+
 
